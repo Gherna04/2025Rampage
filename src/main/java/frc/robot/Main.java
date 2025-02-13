@@ -8,16 +8,11 @@ import java.lang.invoke.MethodHandles;
 
 import edu.wpi.first.wpilibj.RobotBase;
 
-/**
- * Do NOT add any static variables to this class, or any initialization at all. Unless you know what you are doing, do
- * not modify this file except to change the parameter class to the startRobot call.
- */
 public final class Main
 {
     private static final String fullClassName = MethodHandles.lookup().lookupClass().getCanonicalName();
 
-    // *** STATIC INITIALIZATION BLOCK ***
-    // This block of code is run first when the class is loaded
+
     static
     {
         System.out.println("Loading: " + fullClassName);

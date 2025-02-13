@@ -24,15 +24,14 @@ public class RobotContainer
 
     private static final String fullClassName = MethodHandles.lookup().lookupClass().getCanonicalName();
 
-    // *** STATIC INITIALIZATION BLOCK ***
-    // This block of code is run first when the class is loaded
+
     static
     {
         System.out.println("Loading: " + fullClassName);
     }
 
     
-  // Change to commandJoystick or PS5 Xbox is for the weak
+  // Change to commandJoystick or PS5 
   final         CommandPS5Controller driverPS5 = new CommandPS5Controller(0);
   // The robot's subsystems and commands are defined here
   private final SwerveSubsystem       drivebase  = new SwerveSubsystem(new File(Filesystem.getDeployDirectory(),

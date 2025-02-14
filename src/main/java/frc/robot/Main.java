@@ -10,13 +10,7 @@ import edu.wpi.first.wpilibj.RobotBase;
 
 public final class Main
 {
-    private static final String fullClassName = MethodHandles.lookup().lookupClass().getCanonicalName();
 
-
-    static
-    {
-        System.out.println("Loading: " + fullClassName);
-    }
   private Main()
   {
   }

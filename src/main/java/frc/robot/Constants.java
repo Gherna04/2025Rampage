@@ -19,13 +19,7 @@ public final class Constants
 
 
   //tells me when it is initializing a program so if it has an error I will know where it is//
-      private static final String fullClassName = MethodHandles.lookup().lookupClass().getCanonicalName();
 
-
-    static
-    {
-        System.out.println("Loading: " + fullClassName);
-    }
 
 
 

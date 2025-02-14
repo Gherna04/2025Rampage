@@ -22,13 +22,6 @@ import swervelib.SwerveInputStream;
 public class RobotContainer
 {
 
-    private static final String fullClassName = MethodHandles.lookup().lookupClass().getCanonicalName();
-
-
-    static
-    {
-        System.out.println("Loading: " + fullClassName);
-    }
 
     
   // Change to commandJoystick or PS5 

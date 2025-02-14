@@ -18,12 +18,7 @@ import edu.wpi.first.util.PixelFormat;
 public class Robot extends TimedRobot {
   private Command m_autonomousCommand;
   
-      private static final String fullClassName = MethodHandles.lookup().lookupClass().getCanonicalName();
 
-    static
-    {
-        System.out.println("Loading: " + fullClassName);
-    }
 
   private RobotContainer m_robotContainer;
 

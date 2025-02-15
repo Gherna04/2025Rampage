@@ -10,10 +10,7 @@ import edu.wpi.first.wpilibj2.command.Command;
 import frc.robot.subsystems.swervedrive.SwerveSubsystem;
 
 
-/**
- * Auto Balance command using a simple PID controller. Created by Team 3512
- * <a href="https://github.com/frc3512/Robot-2023/blob/main/src/main/java/frc3512/robot/commands/AutoBalance.java">...</a>
- */
+
 public class AutoBalanceCommand extends Command
 {
         private static final String fullClassName = MethodHandles.lookup().lookupClass().getCanonicalName();

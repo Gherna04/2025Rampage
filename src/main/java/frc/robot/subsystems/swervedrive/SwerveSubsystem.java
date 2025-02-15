@@ -68,19 +68,7 @@ public class SwerveSubsystem extends SubsystemBase
    * Swerve drive object.
    */
   private final SwerveDrive         swerveDrive;
-  /**
-   * AprilTag field layout.
-   */
- 
-  /**
-   * Enable vision odometry updates while driving.
-   */
-
-  /**
-   * PhotonVision class to keep an accurate odometry.
-   */
-
-
+  
   /**
    * Initialize {@link SwerveDrive} with the directory provided.
    *
